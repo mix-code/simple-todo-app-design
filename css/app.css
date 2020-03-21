@@ -1,0 +1,21 @@
+body {
+    background-color: #f9f9f9;
+}
+
+.increase-font {
+    font-size: 1.3em;
+}
+
+.card .delete {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.card .delete:hover {
+    color: var(--danger);
+}
+
+.card.completed .card-title {
+    color: rgba(0,0,0,.4)!important;
+    text-decoration: line-through;
+}
